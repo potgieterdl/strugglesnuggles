@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>971790768843-67bvfdn8poeairllivk6rlanpksgvvmv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.971790768843-67bvfdn8poeairllivk6rlanpksgvvmv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDgr3vpF6uk4PoRT4ovOAz-jLd1MmzVKeE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>971790768843</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>za.co.myhq.strugglesnuggles</string>
+	<key>PROJECT_ID</key>
+	<string>struggle-snuggles</string>
+	<key>STORAGE_BUCKET</key>
+	<string>struggle-snuggles.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:971790768843:ios:b4b4498748f6bb58</string>
+	<key>DATABASE_URL</key>
+	<string>https://struggle-snuggles.firebaseio.com</string>
+</dict>
+</plist>
