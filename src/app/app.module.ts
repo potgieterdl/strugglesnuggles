@@ -14,22 +14,23 @@ import { firebaseConfig } from '../environments/firebase';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { AngularFireAuthModule } from '@angular/fire/auth';
-import { GoogleLoginComponent } from './google-login/google-login.component';
+
+import { GooglePlus } from '@ionic-native/google-plus/ngx';
 
 @NgModule({
-  declarations: [AppComponent, GoogleLoginComponent],
+  declarations: [AppComponent],
   entryComponents: [],
   imports: [
     BrowserModule,
     IonicModule.forRoot(),
     AppRoutingModule,
-
     AngularFireModule.initializeApp(firebaseConfig, 'StruggleSnuggles'), // imports firebase/app needed for everything
     AngularFirestoreModule, // imports firebase/database, only needed for database features
     AngularFireDatabaseModule, // imports firebase/database, only needed for database features
     AngularFireAuthModule // imports firebase/auth, only needed for auth features
   ],
   providers: [
+    GooglePlus,
     StatusBar,
     SplashScreen,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
